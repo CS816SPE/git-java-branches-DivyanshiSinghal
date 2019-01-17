@@ -27,7 +27,9 @@ main()
             cout << num1 - num2; 
             break;   
 
-
+       case '/':
+	       cout<<num1/num2;
+		   break;
        
         // If the operator is other than +, -, * or /,  
         // error message will display 
